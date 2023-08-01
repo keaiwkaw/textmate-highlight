@@ -1,0 +1,25 @@
+{
+  "name": "monaco-lsp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "monaco-editor": "0.37.1",
+    "monaco-editor-textmate": "^4.0.0",
+    "monaco-languageclient": "6.0.2",
+    "monaco-textmate": "^3.0.1",
+    "monaco-vscode-textmate-theme-converter": "^0.1.7",
+    "onigasm": "^2.2.5",
+    "vite-plugin-monaco-editor": "1.1.0",
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
